@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 const appname = "Hostel-Ka-Dost";
 const appversion = "Version 1.0.0";
 const credits = "@Baaba Devs";
@@ -36,3 +38,23 @@ const searchAnything = "Search Anything...",
     womenPerfume = "Women Perfumes",
     featuredProduct = "Featured Products", 
     featuredCategories = "Featured Categories";
+
+//category strings
+const womenClothing = "Women Clothing",
+    menClothingFashion="Men Clothing & Fashion",
+    compAccess="Computer & Accessories",
+    automobile = "Automobile",
+    kidtoys = "Kids & Toys",
+    sports = "Sports",
+    jewelery = "Jewelery",
+    cellphone="Cellphone & Tab",
+    furniture = "Furniture";
+
+//item details strings
+
+const video="Video",
+  reviews="Reviews",
+  sellerpolicy="Seller Policy",
+  returnpolicy="Return Policy",
+  supportpolicy= "Support Policy",
+  productsyoumaylike="Products you may also like";

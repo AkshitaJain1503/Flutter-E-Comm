@@ -1,12 +1,10 @@
 import 'package:emart_app/consts/consts.dart';
-import 'package:emart_app/consts/views/auth_screen/signup_screen.dart';
-import 'package:emart_app/consts/views/home_screen/home.dart';
-import 'package:emart_app/consts/widgets_common/applogo_widget.dart';
-import 'package:emart_app/consts/widgets_common/bg_widget.dart';
+import 'package:emart_app/views/auth_screen/signup_screen.dart';
+import 'package:emart_app/views/home_screen/home.dart';
+import 'package:emart_app/widgets_common/applogo_widget.dart';
+import 'package:emart_app/widgets_common/bg_widget.dart';
 import 'package:emart_app/consts/widgets_common/custom_textField.dart';
-import 'package:emart_app/consts/widgets_common/our_button.dart';
-import 'package:flutter/material.dart';
-import 'package:get/get_core/src/get_main.dart';
+import 'package:emart_app/widgets_common/our_button.dart';
 import 'package:get/route_manager.dart';
 
 class LoginScreen extends StatelessWidget {
@@ -55,14 +53,14 @@ class LoginScreen extends StatelessWidget {
                     Align(
                       alignment:Alignment.center ,
                       child: CircleAvatar(
-                        child : Image.asset(icGoogleLogo),
                         radius: 20,
                         backgroundColor: lightGrey,
+                        child : Image.asset(icGoogleLogo),
                         )
                     ),
 
                 ],
-              ).box.white.rounded.padding(EdgeInsets.all(16)).width(context.screenWidth-70).shadowSm.make(),
+              ).box.white.rounded.padding(const EdgeInsets.all(16)).width(context.screenWidth-70).shadowSm.make(),
             ],
           ),
         ),

@@ -1,10 +1,8 @@
 import 'package:emart_app/consts/consts.dart';
-import 'package:emart_app/consts/widgets_common/applogo_widget.dart';
-import 'package:emart_app/consts/widgets_common/bg_widget.dart';
+import 'package:emart_app/widgets_common/applogo_widget.dart';
+import 'package:emart_app/widgets_common/bg_widget.dart';
 import 'package:emart_app/consts/widgets_common/custom_textField.dart';
-import 'package:emart_app/consts/widgets_common/our_button.dart';
-import 'package:flutter/material.dart';
-import 'package:get/get_core/src/get_main.dart';
+import 'package:emart_app/widgets_common/our_button.dart';
 import 'package:get/route_manager.dart';
 
 class SignupScreen extends StatefulWidget {
@@ -98,7 +96,7 @@ class _SignupScreenState extends State<SignupScreen> {
                     Get.back();
                   }),
                 ],
-              ).box.white.rounded.padding(EdgeInsets.all(16)).width(context.screenWidth-70).shadowSm.make(),
+              ).box.white.rounded.padding(const EdgeInsets.all(16)).width(context.screenWidth-70).shadowSm.make(),
             ],
           ),
         ),

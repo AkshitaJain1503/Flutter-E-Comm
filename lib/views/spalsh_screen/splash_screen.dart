@@ -1,8 +1,6 @@
 import 'package:emart_app/consts/consts.dart';
-import 'package:emart_app/consts/views/auth_screen/login_screen.dart';
-import 'package:emart_app/consts/widgets_common/applogo_widget.dart';
-import 'package:flutter/material.dart';
-import 'package:get/get_core/src/get_main.dart';
+import 'package:emart_app/views/auth_screen/login_screen.dart';
+import 'package:emart_app/widgets_common/applogo_widget.dart';
 import 'package:get/route_manager.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -15,8 +13,8 @@ class SplashScreen extends StatefulWidget {
 
 class _SplashScreenCreate extends State<SplashScreen> {
   changeScreen(){
-    Future.delayed(Duration(seconds: 3),(){
-      Get.to(()=>LoginScreen());
+    Future.delayed(const Duration(seconds: 3),(){
+      Get.to(()=>const LoginScreen());
     });
   }
 
@@ -42,7 +40,7 @@ class _SplashScreenCreate extends State<SplashScreen> {
             appname.text.fontFamily(bold).size(22).white.make(),
             5.heightBox,
             //appversion.text.white.make(),
-            Spacer(),  // FOR RESPONSIVE
+            const Spacer(),  // FOR RESPONSIVE
             //credits.text.white.fontFamily(semibold).make(),
             30.heightBox,
             //SPLASH SCREEN UI IS CREATED

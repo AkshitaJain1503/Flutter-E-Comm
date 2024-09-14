@@ -1,7 +1,7 @@
 import 'package:emart_app/consts/consts.dart';
 import 'package:emart_app/consts/lists.dart';
-import 'package:emart_app/consts/views/home_screen/components/featured_button.dart';
-import 'package:emart_app/consts/widgets_common/home_buttons.dart';
+import 'package:emart_app/views/home_screen/components/featured_button.dart';
+import 'package:emart_app/widgets_common/home_buttons.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -21,7 +21,7 @@ class HomeScreen extends StatelessWidget {
             height: 60,
             color: lightGrey,
             child: TextFormField(
-              decoration: InputDecoration(
+              decoration: const InputDecoration(
                   border: InputBorder.none,
                   suffixIcon: Icon(Icons.search),
                   filled: true,

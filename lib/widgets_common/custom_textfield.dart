@@ -9,13 +9,13 @@ Widget customTextField({String? title, String? hint, controller}){
       TextFormField(
         //controller: controller,
         decoration: InputDecoration(
-          hintStyle: TextStyle(fontFamily:semibold, color:textfieldGrey),
+          hintStyle: const TextStyle(fontFamily:semibold, color:textfieldGrey),
           hintText: hint,
           isDense: true,
           fillColor: lightGrey,
           filled: true,
           border: InputBorder.none,
-          focusedBorder: OutlineInputBorder(borderSide: BorderSide(color: redColor))),
+          focusedBorder: const OutlineInputBorder(borderSide: BorderSide(color: redColor))),
         ),
         5.heightBox,
     ],
