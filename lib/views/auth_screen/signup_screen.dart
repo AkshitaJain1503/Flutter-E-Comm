@@ -1,7 +1,7 @@
 import 'package:emart_app/consts/consts.dart';
 import 'package:emart_app/widgets_common/applogo_widget.dart';
 import 'package:emart_app/widgets_common/bg_widget.dart';
-import 'package:emart_app/consts/widgets_common/custom_textField.dart';
+import 'package:emart_app/widgets_common/custom_textField.dart';
 import 'package:emart_app/widgets_common/our_button.dart';
 import 'package:get/route_manager.dart';
 
