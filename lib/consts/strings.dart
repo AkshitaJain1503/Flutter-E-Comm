@@ -58,3 +58,7 @@ const video="Video",
   returnpolicy="Return Policy",
   supportpolicy= "Support Policy",
   productsyoumaylike="Products you may also like";
+
+// profile strings
+
+const wishlist = "My Wishlist", orders = "My Orders", messages = "Messages";
