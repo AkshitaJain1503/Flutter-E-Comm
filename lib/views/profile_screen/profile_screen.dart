@@ -1,4 +1,4 @@
-import 'dart:nativewrappers/_internal/vm/lib/ffi_allocation_patch.dart';
+//import 'dart:nativewrappers/_internal/vm/lib/ffi_allocation_patch.dart';
 
 import 'package:emart_app/consts/consts.dart';
 import 'package:emart_app/consts/lists.dart';
