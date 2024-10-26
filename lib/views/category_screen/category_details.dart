@@ -1,7 +1,6 @@
 import 'package:emart_app/consts/consts.dart';
 import 'package:emart_app/views/category_screen/item_details.dart';
 import 'package:emart_app/widgets_common/bg_widget.dart';
-import 'package:get/get_core/src/get_main.dart';
 import 'package:get/route_manager.dart';
 
 class CategoryDetails extends StatelessWidget {

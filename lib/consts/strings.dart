@@ -1,4 +1,3 @@
-import 'dart:ui';
 
 const appname = "Hostel-Ka-Dost";
 const appversion = "Version 1.0.0";

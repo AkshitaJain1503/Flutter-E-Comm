@@ -26,7 +26,7 @@ class ProfileScreen extends StatelessWidget {
               onTap: () {
                 // Handle the tap event here
               },
-              child: Icon(
+              child: const Icon(
                 Icons.edit, // corrected from Icon.edit to Icons.edit
                 color: whiteColor,
               ),
@@ -37,7 +37,7 @@ class ProfileScreen extends StatelessWidget {
 
           // users details section
             Padding(
-              padding: EdgeInsets.symmetric(horizontal: 8.0),
+              padding: const EdgeInsets.symmetric(horizontal: 8.0),
               child: Row(
                     children: [
                       Image.asset(imgProfile2, width: 100, fit: BoxFit.cover).box.roundedFull.clip(Clip.antiAlias).make(),
@@ -91,7 +91,7 @@ class ProfileScreen extends StatelessWidget {
                   title: profileButtonsList[index].text.fontFamily(semibold).color(darkFontGrey).make(),
                 );
             },
-            ).box.white.rounded.margin(EdgeInsets.all(12)).padding(EdgeInsets.symmetric(horizontal: 16)).shadowSm.make().box.color(redColor).make(),
+            ).box.white.rounded.margin(const EdgeInsets.all(12)).padding(const EdgeInsets.symmetric(horizontal: 16)).shadowSm.make().box.color(redColor).make(),
             
             ],
           ),
